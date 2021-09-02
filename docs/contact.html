@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>김서연 웹포트폴리오 | about me</title>
+
+  <!-- 테일윈드 불러오기 -->
+  <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
+
+  <!-- swiper 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.8.2/swiper-bundle.min.js"></script>
+
+  <!-- GSAP 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+
+  <!-- 스크롤트리거 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+  <!-- 제이쿼리 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!-- 흔들림 효과 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
+
+  <!-- 풀페이지 불러오기 -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
+
+  <!-- scrolloverflow -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
+
+  <!-- CSS 불러오기 -->
+  <link rel="stylesheet" href="/resource/common.css">
+
+  <!-- JS 불러오기 -->
+  <script src="/resource/common.js" defer></script>
+
+
+</head>
+
+<body>
+  <!-- 헤더 시작 -->
+  <header class="menu">
+    <div class="wrap flex">
+      <div class="logo"><a class="flex h-full items-center justify-center" href="#">KIM-<br>SEOYEON</a></div>
+      <div class="menu-space"></div>
+      <nav class="menu-box">
+        <ul class="menu flex h-full items-center justify-between">
+          <li><a href="home.html">HOME</a></li>
+          <li><a href="aboutMe.html">ABOUT ME</a></li>
+          <li><a href="pf.html">PORTFOLIO</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+      <div class="link">
+        <ul class="flex h-full items-center justify-center">
+          <li><a href="https://www.instagram.com/wd_seoyeon" target="_blank">INSTAGRAM</a></li>
+          <li><a href="https://wiken.io/b/241" target="_blank">TECH BLOG</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <!-- 헤더 끝 -->
+
+
+
+  <!-- contact 시작 -->
+  <section class="contact">
+    <div class="con">
+
+      <div class="flex justify-between">
+        <div class="wrap wrap-1">
+          <h1 class="title">Contact</h1>
+          <span class="name">KIM SEOYEON</span>
+          <div class="contact-content-wrap flex">
+            <div class="subtitle">
+              <span class="block">Mobile</span>
+              <span class="block">E-Mail</span>
+            </div>
+            <div class="content">
+              <span class="block">010-0000-0000</span>
+              <span class="block">seoyeonkk68@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="wrap wrap-2">
+          <form target="_blank" action="https://formspree.io/f/xqkwgbeq" onsubmit="sendEmailForm(this); return false;"
+            method="POST">
+            <div>
+              <input autofocus type="text" name="_replyto" placeholder="name">
+            </div>
+            <div>
+              <input autofocus type="email" name="_replyto" placeholder="email">
+            </div>
+            <div>
+              <textarea name="message" placeholder="content"></textarea>
+            </div>
+            <!-- 전송 버튼 -->
+            <div>
+              <button name="submit1" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- contact 끝 -->
+
+</body>
+
+</html>
